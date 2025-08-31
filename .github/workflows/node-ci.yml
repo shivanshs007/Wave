@@ -27,6 +27,3 @@ jobs:
 
       - name: Run tests
         run: npm test --if-present
-
-      - name: Build Docker image
-        run: docker build -t taskvault-backend .
