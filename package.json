@@ -1,0 +1,41 @@
+{
+  "name": "taskvault-backend",
+  "version": "1.0.0",
+  "description": "TaskVault | Secure backend API for task management. Node.js, Express, MongoDB, JWT, Docker, CI/CD.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index.js",
+    "start": "node src/index.js",
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "taskvault",
+    "nodejs",
+    "express",
+    "mongodb",
+    "jwt",
+    "docker",
+    "ci-cd",
+    "backend",
+    "api",
+    "tasks",
+    "authentication"
+  ],
+  "author": "Shivansh srivastava",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0"
+  }
+}
